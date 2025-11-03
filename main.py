@@ -86,8 +86,8 @@ with col_text:
 
 with col_map:
     with col_map:
-    st.write("### World view")
-    st.caption("Green ≈ better USD buying power · Red ≈ stronger local currency vs USD")
+        st.write("### World view")
+        st.caption("Green ≈ better USD buying power · Red ≈ stronger local currency vs USD")
 
     # --- coordinates for each place ---
     coords = {
