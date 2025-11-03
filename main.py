@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import folium
 from streamlit_folium import st_folium
 
-# ---------------- Page config ----------------
+# ---------------- Page config -----------------
 st.set_page_config(page_title="Currency Comparison", layout="wide")
 
 # ---------------- Data loader ----------------
