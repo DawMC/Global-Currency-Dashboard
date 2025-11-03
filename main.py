@@ -70,6 +70,8 @@ with col_text:
     st.write("### This info will tell you best conversion rate to the US dollar")
     st.write("")
     st.write("**Green is good; red is bad** (from a US traveler’s perspective)")
+    st.write("As we can see, The best places for travel will be Brazil, Japan, and South Africa")
+    st.write("The US Dollar does not travel as far in Europe")
 
 with col_map:
     st.write("### World view")
@@ -200,4 +202,4 @@ with cols[3]:
     st.caption(f"1 USD = {currencies['ZAR']['rate']:.2f} ZAR")
 
 st.markdown("---")
-st.caption("Tip: Update the CSV files to refresh rates; the dashboard reads the latest row.")
+
