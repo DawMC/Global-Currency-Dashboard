@@ -6,7 +6,7 @@ import plotly.graph_objects as go
 # Page configuration
 st.set_page_config(page_title="Currency Comparison", layout="wide")
 
-# ============= DATA PROCESSING & MATH =============
+# ============= DATA PROCESSING & MATH ==============
 @st.cache_data
 def load_currency_data(file_path):
     """Load currency data and return the most recent closing value"""
